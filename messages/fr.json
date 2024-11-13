@@ -1,0 +1,139 @@
+{
+    "Configuration": {
+        "language": {
+            "french": "Français",
+            "english": "Anglais"
+        },
+        "theme": {
+            "dark": "Sombre",
+            "light": "Clair"
+        }
+    },
+    "information": {
+        "position": "Ingénieur Front-end",
+        "introduction": "De l'analyse au projet d'intégration, je développe des solutions pour le web."
+    },
+    "Menu": {
+        "about": "À propos",
+        "experience": "Expériences",
+        "training": "Formations"
+    },
+    "About": {
+        "paragraph1": "Passionné d'informatique, je suis diplômé en 2015 en infographie, j'ai parcouru divers domaines dans le monde de la 3D comme l'animation de personnages et la réalisation de vidéo.",
+        "paragraph2": "Actuellement je suis en dernière année d'étude informatique et je recherche un stage avec un profil Front-End.",
+        "paragraph3": "J'ai eu la possibilité de développer avec Oracle APEX et réaliser des projets dans le but d'améliorer le suivi des avions et le turnaround au sein d'un aéroport. La mise en place d'une application pour la gestion des évènements multidisciplinaires destinés à la capitale européenne de la culture en 2022.",
+        "paragraph4": "Quand je n'écris pas une ligne de code, j'aime me perdre dans la culture asiatique en lisant un manga ou bien déguster un bon sushi entre amis."
+    },
+    "Experience": {
+        "01": {
+            "date": "2022 - 2023",
+            "role": "Développeur Consultant",
+            "employeur": "Oscars - Service Publique de Wallonie",
+            "description": "Enrichissement du cycle de vie des catalogues, récupération des données, nettoyage, vérification, traitement et diffusion pour le Géoportail de Wallonie. Attachement des données non spatiales aux informations géographiques, historicité des géométries.",
+            "technologies": [
+                "FME",
+                "Oracle Database",
+                "PL/SQL"
+            ]
+        },
+        "02": {
+            "date": "2021 - 2023",
+            "role": "Développeur d'Application",
+            "employeur": "Oscars à Andenne",
+            "description": "R&D pour l'aéroport du Qatar, création d'écran Oracle APEX pour la supervision des vols et le turnaround des activités. Amélioration de l'interface et expérience utilisateur. Mise en place d'une solution Cloud.",
+            "technologies": [
+                "JavaScript",
+                "PL/SQL",
+                "Oracle APEX"
+            ]
+        },
+        "03": {
+            "date": "2021 - 2022",
+            "role": "Développeur Consultant",
+            "employeur": "Oscars à Andenne",
+            "description": "Analyse et réalisation d'une application avec Oracle APEX pour la gestion d'évènements culturels multidisciplinaire pour la ville d'Esch-sur-Alzette élue capitale européenne de la culture en 2022.",
+            "technologies": [
+                "JavaScript",
+                "PL/SQL",
+                "Oracle APEX"
+            ]
+        },
+        "04": {
+            "date": "2020",
+            "role": "Développeur Stagiaire",
+            "employeur": "Oscars à Andenne",
+            "description": "Découverte des technologies Oracle Database, Oracle APEX. Approfondissement UI/UX.",
+            "technologies": [
+                "SQL",
+                "JavaScript",
+                "PL/SQL",
+                "Oracle APEX",
+                "Oracle Database"
+            ]
+        },
+        "05": {
+            "date": "2015 - 2016",
+            "role": "Généraliste 3D",
+            "employeur": "Université de Liège - Unité de Géomatique",
+            "description": "Projet Virtual Leodium, modélisation et texturing de la ville de Liège au 18e siècle à partir de scanners.",
+            "technologies": [
+                "Maya",
+                "PhotoShop",
+                "After Effect"
+            ]
+        }
+    },
+    "Formations": {
+        "01": {
+            "date": "2021 - présent",
+            "diplome": "Bachelier en informatique de gestion",
+            "etablissement": "Institut Saint-Laurent",
+            "description": "4e année en cours.",
+            "technologies": [
+                "Java",
+                "C",
+                "C++",
+                ".Net",
+                "Javascript",
+                "Python",
+                "React",
+                "Next JS"
+            ]
+        },
+        "02": {
+            "date": "2019 - 2020",
+            "diplome": "Développeur Web",
+            "etablissement": "Becode",
+            "description": "Apprentissage du développement web, front-end et back-end.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "SCSS",
+                "WordPress",
+                "React",
+                "Node.js"
+            ]
+        },
+        "03": {
+            "date": "2016 - 2017",
+            "diplome": "Animateur de personnage 3D",
+            "etablissement": "Pôle Image de Liège",
+            "description": "Découverte sur les principes de base de l'animation, approfondissement des concepts en mode agile, conception Storyboard et développement technique. Réalisation d'un court-métrage en équipe.",
+            "technologies": [
+                "Autodesk Maya",
+                "After Effects"
+            ]
+        },
+        "04": {
+            "date": "2010 - 2015",
+            "diplome": "Bachelier en Infographie",
+            "etablissement": "Haute de la Province de Liège",
+            "description": "3D Specialization",
+            "technologies": [
+                "Autodesk Maya",
+                "Z-Brush",
+                "Adobe Creative Suite"
+            ]
+        }
+    }
+}

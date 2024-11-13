@@ -1,0 +1,139 @@
+{
+    "Configuration": {
+        "language": {
+            "french": "French",
+            "english": "English"
+        },
+        "theme": {
+            "dark": "Dark",
+            "light": "Light"
+        }
+    },
+    "information": {
+        "position": "Front-end Engineer",
+        "introduction": "From analysis to integration project, I develop solutions for the web."
+    },
+    "Menu": {
+        "about": "About",
+        "experience": "Experience",
+        "training": "Training"
+    },
+    "About": {
+        "paragraph1": "Passionate about computer science, I graduated in 2015 in computer graphics design, I had the opportunity to work on differents aspects in the 3D world such as character animation, motion design and FX effect",
+        "paragraph2": "I am a final-year student in business computing and currently seeking an internship, preferably in a Front-End profile.",
+        "paragraph3": "I experienced development with Oracle APEX and completed projects focused on airplane tracking and turnaround within an airport. I also contributed to an application for managing multidisciplinary events regarding the 2022 European Capital of Culture in Luxembourg",
+        "paragraph4": "When I'm not coding, I enjoy immersing myself in East Asian culture by reading manga or enjoy delicious sushi with friends."
+    },
+    "Experience": {
+        "01": {
+            "date": "2022 - 2023",
+            "role": "External Consultant Developer",
+            "employeur": "Oscars - Public Service of Wallonia",
+            "description": "Improvement of library catalogues, database management for the Geoportal of Wallonia. Cross-linking towards spatial-data regarding geographic information.",
+            "technologies": [
+                "FME",
+                "Oracle Database",
+                "PL/SQL"
+            ]
+        },
+        "02": {
+            "date": "2021 - 2023",
+            "role": "Application Developer",
+            "employeur": "Oscars in Andenne",
+            "description": "R&D for Qatar Airport, creation of Oracle APEX UX/UI for flight supervision and turnaround activities and cloud solution setup.",
+            "technologies": [
+                "JavaScript",
+                "PL/SQL",
+                "Oracle APEX"
+            ]
+        },
+        "03": {
+            "date": "2021 - 2022",
+            "role": "Consultant Developer",
+            "employeur": "Oscars in Andenne",
+            "description": "Conception and development of an application with Oracle APEX for the city of Esch-sur-Alzette, European Capital of Culture in 2022.",
+            "technologies": [
+                "JavaScript",
+                "PL/SQL",
+                "Oracle APEX"
+            ]
+        },
+        "04": {
+            "date": "2020",
+            "role": "Intern Developer",
+            "employeur": "Oscars in Andenne",
+            "description": "Introduction to Oracle Database, Oracle APEX technologies and advanced UI/UX.",
+            "technologies": [
+                "SQL",
+                "JavaScript",
+                "PL/SQL",
+                "Oracle APEX",
+                "Oracle Database"
+            ]
+        },
+        "05": {
+            "date": "2015 - 2016",
+            "role": "3D Generalist",
+            "employeur": "University of Liège - Geomatics Unit",
+            "description": "Virtual Leodium project, modeling and texturing the city of Liège in the 18th century based on scans.",
+            "technologies": [
+                "Maya",
+                "PhotoShop",
+                "After Effect"
+            ]
+        }
+    },
+    "Formations": {
+        "01": {
+            "date": "2021 - present",
+            "diplome": "Bachelor Degree, IT Management",
+            "etablissement": "Institut Saint-Laurent",
+            "description": "Final year, ongoing",
+            "technologies": [
+                "Java",
+                "C",
+                "C++",
+                ".Net",
+                "Javascript",
+                "Python",
+                "React",
+                "Next JS"
+            ]
+        },
+        "02": {
+            "date": "2019 - 2020",
+            "diplome": "Web Developer",
+            "etablissement": "Becode",
+            "description": "Learning web development, front-end and back-end.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "SCSS",
+                "WordPress",
+                "React",
+                "Node.js"
+            ]
+        },
+        "03": {
+            "date": "2016 - 2017",
+            "diplome": "3D Character Animator",
+            "etablissement": "Pôle Image de Liège",
+            "description": "Introduction to animation basics, agile concept development, storyboard creation, and technical development. Team production of a short film.",
+            "technologies": [
+                "Autodesk Maya",
+                "After Effects"
+            ]
+        },
+        "04": {
+            "date": "2010 - 2015",
+            "diplome": "Bachelor Degree in Computer Graphic Design",
+            "etablissement": "Haute École de la Province de Liège",
+            "description": "",
+            "technologies": [
+                "Autodesk Maya",
+                "Z-Brush",
+                "Adobe Creative Suite"
+            ]
+        }
+    }
+}

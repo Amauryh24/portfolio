@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GoldmanBold";
+  src: local("GoldmanBold"),
+    url("@/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("@/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+:root {
+  --background: #082f49;
+  --foreground: rgb(226 232 240);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--foreground);
+  @apply bg-slate-50 text-teal-950;
+  font-family: "GoldmanBold";
+
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* bg-cyan-900, bg-cyan-950 */
+.dark body {
+  @apply bg-teal-950 text-white; /* Or use your custom colors */
+  color: var(--foreground);
+  background: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+  padding-bottom: 0.1rem;
+}
+
+p {
+  padding-bottom: 0.7rem;
+}
