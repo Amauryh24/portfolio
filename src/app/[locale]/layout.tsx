@@ -14,10 +14,14 @@ export default async function RootLayout(
     params: { locale: string };
 
   }) {
-  const { locale } = await params;
-  const messages = await getMessages({ locale });
-
-
+  const { locale } = params;
+  let messages;
+  try {
+    messages = await getMessages({ locale });
+  } catch (error) {
+    console.error("Error fetching messages:", error);
+    messages = {}; // Valeur par défaut ou message d'erreur
+  }
 
   {
     return (
