@@ -13,7 +13,9 @@ export default function Header() {
 
     const handleToggleActiveLink = (e: React.MouseEvent<HTMLAnchorElement>) => {
         const menuItem = e.currentTarget.getAttribute("data-name");
-        menuItem && setLinkIsActive(menuItem);
+        if (menuItem) {
+            setLinkIsActive(menuItem)
+        }
     }
 
     return (

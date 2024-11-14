@@ -1,5 +1,5 @@
 "use client"
-import { THEME, LANG } from '@/lib/constant';
+import { THEME } from '@/lib/constant';
 import { useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
     };
 
     // Manage Theme
-    const theme = localStorage.getItem("theme");
+    const theme = localStorage && localStorage.getItem("theme");
     const root = document.documentElement;
     const [isDarkMode, setIsDarkMode] = useState(theme === THEME.dark ? true : false);
     useEffect(() => {
@@ -32,7 +32,7 @@ export default function LanguageSwitcher() {
             root.classList.remove(THEME.dark.toLowerCase());
             localStorage.setItem("theme", THEME.light);
         }
-    }, [isDarkMode]);
+    }, [isDarkMode, root]);
 
     const handleThemeToggle = () => setIsDarkMode(!isDarkMode);
 
